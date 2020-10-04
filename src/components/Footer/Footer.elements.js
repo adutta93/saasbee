@@ -153,6 +153,7 @@ export const SocialIcon = styled(FaForumbee)`
 export const WebsiteRights = styled.small`
   color: #4169e1;
   margin-bottom: 16px;
+  font-size: 1.2rem;
 `;
 
 export const SocialIcons = styled.div`

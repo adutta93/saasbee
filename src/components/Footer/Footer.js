@@ -3,7 +3,7 @@ import { Button } from "../../globalStyles";
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
+  FaGithub,
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
@@ -84,26 +84,40 @@ function Footer() {
           </SocialLogo>
           <WebsiteRights>SaasBee © 2020 | Made By Akash Dutta</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLink
+              href="https://www.facebook.com/akash.dutta.79069322/"
+              target="_blank"
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+            <SocialIconLink
+              href="https://www.instagram.com/aaakash.js/"
+              target="_blank"
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
-              href={
-                "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
-              }
+              href="https://github.com/akash-dutta-au7"
               rel="noopener noreferrer"
               target="_blank"
-              aria-label="Youtube"
+              aria-label="GitHub"
             >
-              <FaYoutube />
+              <FaGithub />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+            <SocialIconLink
+              href="https://twitter.com/mernstackdev93"
+              target="_blank"
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+            <SocialIconLink
+              href="https://www.linkedin.com/in/akash-dutta-0a4993173/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
