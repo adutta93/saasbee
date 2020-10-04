@@ -1,0 +1,25 @@
+.body {
+  background: #aee3f5;
+}
+.prem-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.prem-grid {
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: 25% 25% 25%;
+}
+
+@media only screen and (max-width: 900px) {
+  .prem-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 50px;
+  }
+}
